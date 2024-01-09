@@ -1,27 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 #titulo{
     font-family: sans-serif;
-    color:black;
+    color: black;
     margin-left: 7%;
 }
 #subtitulo{
     font-family: sans-serif;
-    color:black;
+    color: black;
     margin-left: 10%;
 }
 fieldset{
     border: 1;
 }
 body{
-    background-image: url(meridiano-hotel-maceio.jpg);
+    background-image: url(59124_torre-eiffel.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-color: black;
+    background-color: floralwhite;
     font-family: sans-serif;
     font-size: 1em;
     color: black;
@@ -29,3 +26,56 @@ body{
     margin-top: 2%;
     justify-content: center;
 }
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: green;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.form{
+    background: rgba(255, 255, 255,0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+    background-position: center;
+    top: 93%;
+    left: 48%;
+    margin-right: 62%;
+}
+
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+fieldest.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type=text], .campo input[type=email], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
